@@ -14,11 +14,20 @@ The application that allows you to view country information by specific country 
     "country_language":"Arabic"<br/>
 }
 
+###Run application:
+run database: https://github.com/ghusta/docker-postgres-world-db (port in this project - localhost:7777)<br/>
+this project in cmd: mvn clean compile package <br/>
+in main folder where is Dockrefile, cmd: docker build -f Dockerfile -t country:v1 . <br/>
+and next in cmd: docker run -p 8081:8080 "image id"<br/>
+last step: open browser at localhost:8080/code<br/>
+code - select country code
+
 
 Technologies:
 * Java 8
 * Spring (Spring Boot, Spring Web, Spring JPA)
 * PostgreSQL
+* Docker
 
 Library:
 * Lombok
