@@ -10,7 +10,7 @@
     </parent>
     <groupId>world.db</groupId>
     <artifactId>country</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>countryInformation</name>
     <description>Country information project for Spring Boot</description>
 
