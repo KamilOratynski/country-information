@@ -81,7 +81,7 @@ public class CountryLanguageEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "country_code", referencedColumnName = "code", nullable = false)
+    @JoinColumn(name = "country_code", referencedColumnName = "code", nullable = false, insertable = false, updatable = false)
     public CountryEntity getCountryByCountryCode() {
         return countryByCountryCode;
     }
